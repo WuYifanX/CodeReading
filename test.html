@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    var s = [
+        {first:"Joe",last:"Besser"},
+        {first:"Moe",last:"Howard"},
+        {first:"Joe",last:"Derita"},
+        {first:"Curly",last:"Howard"},
+        {first:12,last:"Howard"}
+
+    ];
+
+    //这里的direction为 1或者-1.其中-1为正序(升高排列);
+    var by = function(name,direction){
+        return function(o,p){
+            var a,b;
+            //下面是为了首先判断是object,而且不是null;
+            if(typeof o === "object" && typeof p ==="object" && o && p){
+                a =o[name];
+                b = p[name];
+                if( a=== b){
+                    return 0;
+                }
+                if(typeof a === typeof b){
+                    return a<b ? direction:-direction; //意思是如果是统一的类型,那么就正序排列
+                }
+                return typeof a < typeof b? direction:-direction;
+            }
+        }
+    };
+
+
+
+
+
+
+</script>
+</body>
+</html>
