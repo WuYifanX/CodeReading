@@ -26,8 +26,8 @@
           <file leaf-file-name="underscore.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/underscore/underscore-0.1.0/underscore.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="17" column="40" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="40" />
+                <state relative-caret-position="630">
+                  <caret line="56" column="21" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -62,8 +62,8 @@
           <file leaf-file-name="myUnderscore.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/underscore/underscore-0.1.0/myUnderscore/myUnderscore.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+                <state relative-caret-position="585">
+                  <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
                   <folding>
                     <element signature="e#0#42#0" expanded="false" />
                   </folding>
@@ -91,8 +91,8 @@
         <option value="chrome-extension://gomekmidlodglbbmalcneegieacbdmki/common/scripts/content.aos.js" />
         <option value="chrome-extension://fpdnjdlbdmifoocedhkighhlbchbiikl/include.preload.js" />
         <option value="chrome-extension://fpdnjdlbdmifoocedhkighhlbchbiikl/include.postload.js" />
-        <option value="$PROJECT_DIR$/underscore/underscore-0.1.0/underscore.js" />
         <option value="$PROJECT_DIR$/underscore/underscore-0.1.0/mytest.html" />
+        <option value="$PROJECT_DIR$/underscore/underscore-0.1.0/underscore.js" />
         <option value="$PROJECT_DIR$/underscore/underscore-0.1.0/myUnderscore/myUnderscore.js" />
       </list>
     </option>
@@ -182,7 +182,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="underscore-0.1.0" />
+              <option name="myItemId" value="underscore-1.0.0" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -288,15 +288,15 @@
       <updated>1481523250591</updated>
       <workItem from="1481523252784" duration="868000" />
       <workItem from="1481529359834" duration="25814000" />
-      <workItem from="1482247342153" duration="578000" />
+      <workItem from="1482247342153" duration="5218000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27260000" />
+    <option name="totallyTimeSpent" value="31900000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="23" width="1280" height="773" extended-state="6" />
+    <frame x="-3" y="23" width="1280" height="773" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17890625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -333,7 +333,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -410,6 +410,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <element signature="e#1860#2511#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -417,13 +420,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="1682" column="0" selection-start-line="1682" selection-start-column="0" selection-end-line="1682" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/underscore/underscore-0.1.0/test/arrays.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#228#57642#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -431,6 +431,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -451,13 +454,6 @@
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/underscore/underscore-1.0.0/underscore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2578">
-          <caret line="673" column="0" selection-start-line="673" selection-start-column="0" selection-end-line="673" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -516,10 +512,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/underscore/underscore-0.1.0/test/arrays.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/underscore/underscore-0.1.0/mytest.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/underscore/underscore-1.0.0/underscore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="146" column="19" selection-start-line="146" selection-start-column="8" selection-end-line="146" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -536,8 +548,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/underscore/underscore-0.1.0/myUnderscore/myUnderscore.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state relative-caret-position="585">
+          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
           </folding>
