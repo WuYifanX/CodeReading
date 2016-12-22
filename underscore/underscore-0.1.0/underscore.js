@@ -35,6 +35,8 @@ window._ = {
       }
     } catch(e) {
       if (e != '__break__') throw e;
+      //内部的实现是,如果在后面的部分有throw 错误的话,那么有可能自定的__break__,如果是自定的break
+      //那么就丢出这个bug,如果是真的bug就丢出e这个问题.
     }
     return obj;
   },
@@ -135,6 +137,8 @@ window._ = {
   invoke : function(obj, method) {
     var args = _.toArray(arguments).slice(2);
     return _.map(obj, function(value) {
+      debugger;
+      console.log(value[method]);
       return (method ? value[method] : value).apply(value, args);
     });
   },
@@ -153,11 +157,11 @@ window._ = {
     _.each(obj, function(value, index) {
       //这里如果iterator是真,那么执行前面的;如果是假,那么执行后面的;
       var computed = iterator ? iterator.call(context, value, index) : value;
+      //这里的result是一个对象,value是原来的value,computed是计算的结果
       if (result == null || computed >= result.computed) result = {value : value, computed : computed};
     });
     return result.value;
   },
-  
   // Return the minimum element (or element-based computation).
   min : function(obj, iterator, context) {
     if (!iterator && _.isArray(obj)) return Math.min.apply(Math, obj);
