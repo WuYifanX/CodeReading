@@ -6,6 +6,7 @@
 
 window.__ = {
     VERSION: "0.1.0",
+    //Here is a object funcitons
     each:function(obj,iterator,context){
         try {
             if(obj.forEach){
@@ -171,7 +172,7 @@ window.__ = {
         return __.pluck(temp,"value");
     },
     sortedIndex:function(array,obj,iterator){
-
+        throw new Error("还没有写好");
     },
     toArray:function(iterable){
         if(!iterable) return [];
@@ -180,8 +181,21 @@ window.__ = {
     },
     size:function(obj){
         return __.toArray(obj).length;
+    },
+
+    // Here is an array functions
+    first:function(array){
+        return array[0];
+    },
+    last:function(array){
+        return array[array.length -1];
+    },
+    compact:function(array){
+        return __.select(array,function(value){ return !!value;});
+    },
+    flatten:function(array){
+        
     }
-    
 
 };
 
