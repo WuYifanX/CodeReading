@@ -194,6 +194,24 @@ window.__ = {
         return __.select(array,function(value){ return !!value;});
     },
     flatten:function(array){
+        return __.inject(array,[],function(memo,value){
+            if(__.isArray(memo)){
+                return memo.concat(__.flatten(value))
+            }
+            memo.push(value);
+            return memo;
+        })
+    },
+    without:function(array){
+        var values = array.slice.call(arguments,0);
+        console.log(values);
+        return __.select(array,function(value){ return !_.include(values,value)});
+    },
+    uniq:function(array,isSorted){
+        return __.inject(array,[],function(memo,el,i){
+        })
+    },
+    intersect:function(){
         
     }
 

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fe6130a-59d7-4add-80d9-263e45e70a3c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/underscore/underscore-0.1.0/myUnderscore/myUnderscore.js" afterPath="$PROJECT_DIR$/underscore/underscore-0.1.0/myUnderscore/myUnderscore.js" />
     </list>
@@ -30,8 +29,8 @@
           <file leaf-file-name="underscore.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/underscore/underscore-0.1.0/underscore.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="335">
-                  <caret line="235" column="6" selection-start-line="235" selection-start-column="6" selection-end-line="235" selection-end-column="6" />
+                <state relative-caret-position="125">
+                  <caret line="248" column="75" selection-start-line="248" selection-start-column="75" selection-end-line="248" selection-end-column="75" />
                   <folding>
                     <element signature="e#2437#2635#0" expanded="false" />
                     <element signature="e#2787#3010#0" expanded="false" />
@@ -55,6 +54,7 @@
                     <element signature="e#7359#7398#0" expanded="false" />
                     <element signature="e#7553#7579#0" expanded="false" />
                     <element signature="e#7648#7689#0" expanded="false" />
+                    <element signature="e#7768#7837#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -100,6 +100,8 @@
                     <element signature="e#6795#7051#0" expanded="false" />
                     <element signature="e#7143#7282#0" expanded="false" />
                     <element signature="e#7359#7398#0" expanded="false" />
+                    <element signature="e#7553#7579#0" expanded="false" />
+                    <element signature="e#7648#7689#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -108,8 +110,8 @@
           <file leaf-file-name="myUnderscore.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/underscore/underscore-0.1.0/myUnderscore/myUnderscore.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="450">
-                  <caret line="196" column="8" selection-start-line="196" selection-start-column="8" selection-end-line="196" selection-end-column="8" />
+                <state relative-caret-position="511">
+                  <caret line="214" column="8" selection-start-line="214" selection-start-column="8" selection-end-line="214" selection-end-column="8" />
                   <folding>
                     <element signature="e#0#42#0" expanded="false" />
                     <element signature="e#192#911#0" expanded="false" />
@@ -309,15 +311,16 @@
       <workItem from="1481523252784" duration="868000" />
       <workItem from="1481529359834" duration="25814000" />
       <workItem from="1482247342153" duration="19602000" />
-      <workItem from="1482393677459" duration="778000" />
+      <workItem from="1482393677459" duration="1001000" />
+      <workItem from="1482499719228" duration="4643000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47062000" />
+    <option name="totallyTimeSpent" value="51928000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="773" extended-state="1" />
+    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17890625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -392,6 +395,78 @@
             <element signature="e#6795#7051#0" expanded="false" />
             <element signature="e#7143#7282#0" expanded="false" />
             <element signature="e#7359#7398#0" expanded="false" />
+            <element signature="e#7553#7579#0" expanded="false" />
+            <element signature="e#7648#7689#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/underscore/underscore-0.1.0/myUnderscore/myUnderscore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="196" column="8" selection-start-line="196" selection-start-column="8" selection-end-line="196" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+            <element signature="e#192#911#0" expanded="false" />
+            <element signature="e#951#1230#0" expanded="false" />
+            <element signature="e#1278#1420#0" expanded="false" />
+            <element signature="e#1463#1701#0" expanded="false" />
+            <element signature="e#1744#2013#0" expanded="false" />
+            <element signature="e#2056#2236#0" expanded="false" />
+            <element signature="e#2277#2731#0" expanded="false" />
+            <element signature="e#2771#3126#0" expanded="false" />
+            <element signature="e#3160#3444#0" expanded="false" />
+            <element signature="e#3477#3641#0" expanded="false" />
+            <element signature="e#3670#3811#0" expanded="false" />
+            <element signature="e#3851#4344#0" expanded="false" />
+            <element signature="e#4384#4877#0" expanded="false" />
+            <element signature="e#4920#5287#0" expanded="false" />
+            <element signature="e#4973#5145#0" expanded="false" />
+            <element signature="e#5333#5374#0" expanded="false" />
+            <element signature="e#5406#5563#0" expanded="false" />
+            <element signature="e#5587#5633#0" expanded="false" />
+            <element signature="e#5695#5727#0" expanded="false" />
+            <element signature="e#5753#5799#0" expanded="false" />
+            <element signature="e#5828#5902#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/underscore/underscore-0.1.0/mytest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/underscore/underscore-0.1.0/underscore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+          <folding>
+            <element signature="e#2437#2635#0" expanded="false" />
+            <element signature="e#2787#3010#0" expanded="false" />
+            <element signature="e#3118#3284#0" expanded="false" />
+            <element signature="e#3454#3818#0" expanded="false" />
+            <element signature="e#3627#3793#0" expanded="false" />
+            <element signature="e#3825#3901#0" expanded="false" />
+            <element signature="e#3987#4270#0" expanded="false" />
+            <element signature="e#4160#4245#0" expanded="false" />
+            <element signature="e#4277#4343#0" expanded="false" />
+            <element signature="e#4399#4639#0" expanded="false" />
+            <element signature="e#4744#4959#0" expanded="false" />
+            <element signature="e#5066#5176#0" expanded="false" />
+            <element signature="e#5280#5726#0" expanded="false" />
+            <element signature="e#5833#6180#0" expanded="false" />
+            <element signature="e#6298#6605#0" expanded="false" />
+            <element signature="e#6368#6456#0" expanded="false" />
+            <element signature="e#6612#6685#0" expanded="false" />
+            <element signature="e#6795#7051#0" expanded="false" />
+            <element signature="e#7143#7282#0" expanded="false" />
+            <element signature="e#7359#7398#0" expanded="false" />
+            <element signature="e#7553#7579#0" expanded="false" />
+            <element signature="e#7648#7689#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -452,6 +527,8 @@
             <element signature="e#6795#7051#0" expanded="false" />
             <element signature="e#7143#7282#0" expanded="false" />
             <element signature="e#7359#7398#0" expanded="false" />
+            <element signature="e#7553#7579#0" expanded="false" />
+            <element signature="e#7648#7689#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -516,9 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding>
-            <element signature="e#1860#2511#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -652,14 +726,16 @@
             <element signature="e#6795#7051#0" expanded="false" />
             <element signature="e#7143#7282#0" expanded="false" />
             <element signature="e#7359#7398#0" expanded="false" />
+            <element signature="e#7553#7579#0" expanded="false" />
+            <element signature="e#7648#7689#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/underscore/underscore-0.1.0/myUnderscore/myUnderscore.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="196" column="8" selection-start-line="196" selection-start-column="8" selection-end-line="196" selection-end-column="8" />
+        <state relative-caret-position="511">
+          <caret line="214" column="8" selection-start-line="214" selection-start-column="8" selection-end-line="214" selection-end-column="8" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
             <element signature="e#192#911#0" expanded="false" />
