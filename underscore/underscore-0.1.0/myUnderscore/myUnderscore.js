@@ -213,7 +213,43 @@ window.__ = {
     },
     intersect:function(){
         
-    }
+    },
+    zip:function(){
+
+    },
+    indexOf:function(array,item){
+        if(array.indexOf) return array.indexOf(item);
+        var length = array.length;
+        for(var i=0; i<length; i++){
+            if (array[i] === item){
+                return i;
+            }
+        }
+        return -1;
+    },
+    bind:function(func,context){
+        if(!context) return func;
+        var args = __.toArray(arguments).slice(2);
+        return function(){
+            return func.call(context,args);
+        }
+    },
+    bindAll:function(){
+        var args = __.toArray(arguments);
+        var context = args.pop();
+        __.each(args,function(methodName){
+            context[methodName] = __.bind(context[methodName],context);
+        })
+    },
+    delay:function(func,wait){
+        var args = __.toArray(arguments).slice(2);
+        return window.setTimeout(function(){
+            return func.apply(func,args);
+        },wait);
+    },
+    
+
+
 
 };
 
