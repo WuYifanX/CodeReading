@@ -26,11 +26,13 @@
   // 缓存变量, 便于压缩代码
   // 此处「压缩」指的是压缩到 min.js 版本
   // 而不是 gzip 压缩
+  // 这里可以加快查询速度
   var ArrayProto = Array.prototype, ObjProto = Object.prototype, FuncProto = Function.prototype;
 
   // Create quick reference variables for speed access to core prototypes.
   // 缓存变量, 便于压缩代码
   // 同时可减少在原型链中的查找次数(提高代码效率)
+  // 分层次存储,三层的分两次
   var
     push             = ArrayProto.push,
     slice            = ArrayProto.slice,
@@ -47,6 +49,7 @@
     nativeCreate       = Object.create;
 
   // Naked function reference for surrogate-prototype-swapping.
+  // 没看明白
   var Ctor = function(){};
 
   // Create a safe reference to the Underscore object for use below.
